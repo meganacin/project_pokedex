@@ -1,0 +1,106 @@
+.selector{
+  width: 1000px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 10px;
+  align-items: center;
+}
+.btn{
+width:150px;
+height: 100px;
+align-content: center;
+}
+.btn_image{
+width: 100px;
+height: 100px;
+}
+.container{
+  display: flex;
+  border: 3px solid #000;
+  border-radius: 10px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40px 100%, 0% 80%);
+  background-color: #dedede;
+  width: 700px;
+}
+.imageContainer {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  background-color: #dedede;
+  margin-right: 30px;
+}
+.image {
+  position: absolute;
+  margin-top: 10px;
+  width: 220px;
+  border: 3px solid #000;
+  background-color: #000;
+  border-radius: 30px;
+}
+.image_pokemon {
+  position: relative;
+  width: 220px;
+  border-radius: 30px;
+}
+.shiny_icon{
+  position: absolute;
+  width: 25px;
+}
+.info_container{
+  background-color: #dedede;
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+.select_container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+select{
+  background-color: #dedede;
+  border-radius: 3px;
+}
+
+.type{
+  text-align: center;
+  color:#FFF ;
+  font-weight: bold;
+  padding:0px 2px 2px 2px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin: 5px;
+}
+
+.second_container{
+  margin:10px 450px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-color: #dedede;
+  width: 700px;
+}
+.hability_container{
+  background-color: #52AE5F;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+  height: 130px;
+}
+.descriptionContainer{
+  background-color: #52AE5F;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+  height: 80px;
+}
+h4{
+  margin:0;
+}
+.stats{
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-align: right;
+  width: 300px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  background-color: #FFF;
+}
